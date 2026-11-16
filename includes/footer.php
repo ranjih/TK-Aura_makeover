@@ -1,0 +1,1 @@
+</main><footer class="footer"><strong>Makeup & Beauty Services</strong><p class="small">Bridal HD Makeup · Engagement & Party · Baby Shower · Saree Draping</p><p class="small">© <?= date('Y') ?> Makeup & Beauty Services. All rights reserved.</p></footer></body></html>

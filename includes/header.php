@@ -1,0 +1,4 @@
+<?php require_once __DIR__.'/../config/helpers.php'; ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($page_title ?? SITE_NAME) ?></title><link rel="stylesheet" href="<?= e($asset_prefix ?? '') ?>assets/style.css"></head><body>
+<header class="topbar"><a class="brand" href="<?= e($home_link ?? 'index.php') ?>">♥ Makeup & Beauty</a><nav class="nav"><a href="<?= e($home_link ?? 'index.php') ?>">Home</a><a href="<?= e($services_link ?? 'index.php#services') ?>">Services</a><?php if(is_customer()): ?><a href="<?= e($customer_link ?? 'customer/dashboard.php') ?>">My Bookings</a><a href="<?= e($logout_link ?? 'logout.php') ?>">Logout</a><?php else: ?><a href="<?= e($login_link ?? 'login.php') ?>">Login</a><a class="btn" href="<?= e($register_link ?? 'register.php') ?>">Register</a><?php endif; ?></nav></header>
+<main class="container"><?php show_flash(); ?>

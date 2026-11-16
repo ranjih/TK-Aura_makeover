@@ -1,0 +1,1 @@
+<aside class="sidebar"><h2>♥ Beauty Admin</h2><a href="dashboard.php">▦ Dashboard</a><a href="bookings.php">▣ All Bookings</a><a href="customers.php">♙ Customers</a><a href="services.php">✿ Services</a><a href="../logout.php">↪ Logout</a></aside>

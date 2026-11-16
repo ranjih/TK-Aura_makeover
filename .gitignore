@@ -1,0 +1,12 @@
+
+# Local configuration and secrets
+config/config.php
+.env
+
+# Database backups
+*.sql
+*.sql.zip
+
+# Temporary files
+*.log
+*.tmp
